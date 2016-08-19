@@ -1,0 +1,52 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.andrewfrolkin.curiomobile.projectDetailFragment">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/project_detail"
+            style="?android:attr/textAppearanceMedium"
+            android:text="Project description"
+            android:padding="16dp"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.andrewfrolkin.curiomobile.projectDetailFragment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:id="@+id/empty_view">
+
+            <ImageView
+                android:layout_height="36dp"
+                android:layout_width="36dp"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_sad" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/empty_text"
+                android:layout_height="wrap_content"
+                style="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="@string/no_about" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

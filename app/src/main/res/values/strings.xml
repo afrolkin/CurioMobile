@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Curio Mobile</string>
+    <string name="title_project_detail">project Detail</string>
+    <string name="card_title_placeholder">Title Placeholder</string>
+    <string name="card_name_placeholder">User name</string>
+    <string name="card_description_placeholder">Project Description</string>
+    <string name="baseUrl">http://test.crowdcurio.com/api</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_about">No description available</string>
+    <string name="no_team">No team members available</string>
+    <string name="no_questions">No questions available</string>
+    <string name="no_projects">No projects available</string>
+</resources>
